@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExBDSQL
+</name>
+</assembly>
+<members>
+<member name="T:ExBDSQL.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ExBDSQL.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ExBDSQL.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ExBDSQL.My.Resources.Resources._964116_flat_design_login_screen_template_grátis_vetor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:ExBDSQL.Prog07DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ExBDSQL.Prog07DataSet.RHDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExBDSQL.Prog07DataSet.RHRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExBDSQL.Prog07DataSet.RHRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExBDSQL.Prog07DataSetTableAdapters.RHTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExBDSQL.Prog07DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ExBDSQL.Prog07DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ExBDSQL.Prog07DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ExBDSQL.Prog07DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ExBDSQL.Prog07DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ExBDSQL.Prog07DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ExBDSQL.Prog07DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ExBDSQL.Prog07DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ExBDSQL.Prog07DataSetTableAdapters.TableAdapterManager.UpdateAll(ExBDSQL.Prog07DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ExBDSQL.Prog07DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ExBDSQL.Prog07DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
